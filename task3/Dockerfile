@@ -16,4 +16,4 @@ COPY ./src ./
 EXPOSE 3032
 
 # скрипт в качестве команды запуска приложения
-CMD ["node", "main.js"]
+ENTRYPOINT ["node", "main.js"]
